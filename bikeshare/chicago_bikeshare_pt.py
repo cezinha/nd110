@@ -315,6 +315,13 @@ print("Você vai encarar o desafio? (yes ou no)")
 answer = "yes"
 
 def count_items(column_list):
+    """
+      Conta os tipos de usuários sem definir os tipos.
+      Argumentos:
+          column_list: list com os tipos.
+      Retorna:
+          lista de tipos, lista de quantidades de cada tipo
+    """
     item_types = []
     count_items_list = []
 
